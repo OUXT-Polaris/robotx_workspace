@@ -1,0 +1,4 @@
+front_camera_image_decompressor_node:
+    ros__parameters:
+        in: "/perception/front_camera/image_raw/compressed"
+        out: "/perception/front_camera/image_raw"

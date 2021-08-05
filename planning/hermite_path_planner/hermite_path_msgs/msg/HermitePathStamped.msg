@@ -1,0 +1,3 @@
+std_msgs/Header header
+hermite_path_msgs/HermitePath path
+hermite_path_msgs/ReferenceVelocity[] reference_velocity

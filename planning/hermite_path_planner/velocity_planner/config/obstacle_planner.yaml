@@ -1,0 +1,10 @@
+/velocity_planner/obstacle_planner:
+  ros__parameters:
+    max_deceleration : 0.8
+    max_linear_velocity : 0.8
+    section_length : 0.5
+    stop_margin : 5.0
+    robot_width : 2.0
+    t_upper_threashold: 1.2
+    update_path_topic : "/velocity_planner/planner_concatenator/update"
+    obstacle_scan_topic : "/perception/pointcloud_to_laserscan_node/output"

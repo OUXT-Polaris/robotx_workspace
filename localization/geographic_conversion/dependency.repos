@@ -1,0 +1,5 @@
+repositories:
+  nmea_msgs:
+    url: https://github.com/OUXT-Polaris/geographic_info.git
+    type: git
+    version: ros2

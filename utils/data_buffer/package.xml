@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>data_buffer</name>
+  <version>0.0.1</version>
+  <description>The data_buffer package</description>
+
+  <maintainer email="ms.kataoka@gmail.com">Masaya Kataoka</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <build_depend>rclcpp</build_depend>
+  <build_export_depend>rclcpp</build_export_depend>
+  <exec_depend>rclcpp</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

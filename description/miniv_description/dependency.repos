@@ -1,0 +1,13 @@
+repositories:
+  miniv_control:
+    type: git
+    url: https://github.com/OUXT-Polaris/miniv_control.git
+    version: master
+  tcp_sender:
+    type: git
+    url: https://github.com/OUXT-Polaris/tcp_sender.git
+    version: master
+  tcp_sender:
+    type: git
+    url: https://github.com/OUXT-Polaris/tcp_sender.git
+    version: master

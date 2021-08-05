@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="lidar">
+  <xacro:macro name="lidar" params="prefix position:='0 0 0' orientation:='0 0 0'">
+    <link name="${prefix}_lidar_link">
+    </link>
+    <joint name ="${prefix}_lidar_joint" type="fixed">
+      <origin xyz="${position}" rpy="${orientation}"/>
+      <parent link="base_link"/>
+      <child link="${prefix}_lidar_link"/>
+    </joint>
+  </xacro:macro>
+</robot>

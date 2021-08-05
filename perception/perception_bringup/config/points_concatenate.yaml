@@ -1,0 +1,7 @@
+points_concatenate_node:
+    ros__parameters:
+        num_input: 4
+        input_topic0: "/perception/front_lidar/points_transform_node/output"
+        input_topic1: "/perception/rear_lidar/points_transform_node/output"
+        input_topic2: "/perception/left_lidar/points_transform_node/output"
+        input_topic3: "/perception/right_lidar/points_transform_node/output"

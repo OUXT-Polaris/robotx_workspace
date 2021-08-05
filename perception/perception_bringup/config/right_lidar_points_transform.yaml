@@ -1,0 +1,5 @@
+right_lidar_points_transform_node:
+    ros__parameters:
+        output_frame_id: "base_link"
+        input_topic : "/perception/right_lidar/radius_outlier_removal_node/output"
+        output_topic: "/perception/right_lidar/points_transform_node/output"

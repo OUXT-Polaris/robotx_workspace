@@ -1,0 +1,28 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    joint_state_controller:
+      type: joint_state_controller/JointStateController
+
+    dinamixel_diagnostic_controller:
+      type: dynamixel_hardware_interface/DynamixelDiagnosticController
+
+dinamixel_diagnostic_controller:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - gripper
+    joint1:
+      - temperature
+    joint2:
+      - temperature
+    joint3:
+      - temperature
+    joint4:
+      - temperature
+    gripper:
+      - temperature

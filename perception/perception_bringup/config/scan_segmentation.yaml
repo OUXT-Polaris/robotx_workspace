@@ -1,0 +1,10 @@
+scan_segmentation_node:
+    ros__parameters:
+        scan_topic : "/perception/pointcloud_to_laserscan_node/output"
+        range_max : 100.0
+        max_segment_distance : 0.8
+        min_segment_distance : 0.1
+        distance_ratio : 2.0
+        theta_threashold : 0.3141592653589793
+        output_frame_id : "base_link"
+        visualize_frame_id : "map"

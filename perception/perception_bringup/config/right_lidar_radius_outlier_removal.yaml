@@ -1,0 +1,5 @@
+right_lidar_radius_outlier_removal_node:
+    ros__parameters:
+        input_topic: "/sensing/right_lidar/points_raw"
+        search_radius: 0.5
+        min_neighbors_in_search_radius: 3

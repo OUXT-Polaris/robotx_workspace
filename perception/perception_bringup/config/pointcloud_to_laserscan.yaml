@@ -1,0 +1,6 @@
+pointcloud_to_laserscan_node:
+    ros__parameters:
+        min_height : -3.0
+        max_heitht : 3.0
+        scan_time : 0.3333
+        use_inf: true
